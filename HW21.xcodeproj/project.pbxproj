@@ -12,6 +12,8 @@
 		9D91DFB928A5408700FF40E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D91DFB828A5408700FF40E6 /* Assets.xcassets */; };
 		9D91DFBC28A5408700FF40E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D91DFBA28A5408700FF40E6 /* LaunchScreen.storyboard */; };
 		9D91DFCD28A54B2700FF40E6 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D91DFCC28A54B2700FF40E6 /* MainController.swift */; };
+		9D91DFEF28A57EE100FF40E6 /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D91DFEE28A57EE100FF40E6 /* MainModel.swift */; };
+		9D942C4A28AACF650086AC38 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D942C4928AACF650086AC38 /* String+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		9D91DFBB28A5408700FF40E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D91DFBD28A5408700FF40E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D91DFCC28A54B2700FF40E6 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		9D91DFEE28A57EE100FF40E6 /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
+		9D942C4928AACF650086AC38 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +136,8 @@
 		9D91DFCB28A541AA00FF40E6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9D91DFEE28A57EE100FF40E6 /* MainModel.swift */,
+				9D942C4928AACF650086AC38 /* String+Extension.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -208,6 +214,8 @@
 			files = (
 				9D91DFCD28A54B2700FF40E6 /* MainController.swift in Sources */,
 				9D91DFB428A5408600FF40E6 /* MainView.swift in Sources */,
+				9D91DFEF28A57EE100FF40E6 /* MainModel.swift in Sources */,
+				9D942C4A28AACF650086AC38 /* String+Extension.swift in Sources */,
 				9D91DFB028A5408600FF40E6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
